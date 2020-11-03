@@ -45,6 +45,9 @@ function Sidebar() {
             <hr/>
             <SidebarOption Icon={AddIcon} addChannelOption title="Add Channel" />
 
+            {/* Connect to DB and list all the Channel */}
+            {/* SlideBar Option */}
+
         
         </div>
     )
