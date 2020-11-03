@@ -24,3 +24,8 @@
     font-size: 15px !important;
     
 }
+.sidebar >hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:1px solid #340e36;
+}
