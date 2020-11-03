@@ -22,6 +22,7 @@ function Sidebar() {
 
             </div>
             <SidebarOption Icon={InsertCommentIcon} title="Threads" />
+            <SidebarOption title="Youtube" />
         </div>
     )
 }
