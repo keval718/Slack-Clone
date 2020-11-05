@@ -5,7 +5,7 @@ const firebaseConfig = {
     authDomain: "slack-clone-93aa9.firebaseapp.com",
     databaseURL: "https://slack-clone-93aa9.firebaseio.com",
     projectId: "slack-clone-93aa9",
-    storageBucket: "slack-clone-93aa9.appspot.com",
+    storageBucket: "slack-clone-93aa9.appspot.com", 
     messagingSenderId: "877373645045",
     appId: "1:877373645045:web:ca5812b86c03ad182265bc",
     measurementId: "G-2EV9J3971L"
@@ -15,4 +15,5 @@ const firebaseConfig = {
   const auth=firebase.auth();
   const provider=new firebase.auth.GoogleAuthProvider();
 
-  export {db,auth,provider};
+  export {auth,provider};
+  export default db;
